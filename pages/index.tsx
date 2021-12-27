@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styled from 'styled-components'
+import { mediaQuery } from '../styles/styles'
 
 const Home: NextPage = () => {
   return (
@@ -34,6 +34,10 @@ const MainWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  ${mediaQuery(767)} {
+    padding: 0 1rem;
+  }
 `
 
 const BoxWrapper = styled.div`
