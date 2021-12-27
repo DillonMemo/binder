@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
       color: #C5C5C5 !important;
     }
     body {
-        font-family: 'Montserrat', 'Noto Sans KR', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Noto Sans KR', 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         overscroll-behavior: auto;
         user-select: none;
         background: transparent;
