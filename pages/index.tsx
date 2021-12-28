@@ -68,12 +68,14 @@ const BoxWrapper = styled.div`
   }
 
   .submit {
+    border: none;
+    outline: none;
     cursor: pointer;
+
     background-color: #c4c4c4;
     color: #000000;
     border-radius: 1.25rem;
     padding: 1rem 4.375rem;
-    border: none;
   }
 `
 
